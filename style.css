@@ -1,0 +1,139 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Geneva, sans-serif;
+    background-color: black;
+}
+.container {
+    width: 80%;
+    margin:auto;
+    display:flex;
+}
+.header {
+    border-bottom: 2px #32b9cd solid;
+}
+.header .container {
+    justify-content: space-between;
+}
+.header a {
+ text-decoration: none;
+ color: #e3b062; 
+}
+.agora {
+    font-weight: 800;
+}
+.navbar {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.titulo {
+    color:#32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+.banner{
+    height: fit-content;
+    padding: 100px 0;
+    color:#e7e7e7;
+    
+    background-image: url('imagem/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+
+        
+}
+.banner .container {
+    height: 400px;
+    font-size: 36px;
+    justify-content:center;
+    align-content:center;
+}
+.banner p {
+    height: fit-content;
+    margin:0;
+    padding: 0;
+    width: 280px;
+}
+.banner .container spam{
+    font-weight: 800;
+}
+
+.quadrado {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    width: 490px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.logintitulo{
+
+    color: hsl(337, 59%, 62%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;  
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    opacity: 0.70;
+    position:absolute;
+}
+
+input {
+	margin-top: 8px;
+	padding: 8px;
+    box-shadow: 0 0 5px #32B9CD;
+    border: #32B9CD;
+	border-radius: 8px;
+	
+	
+}
+
+form{
+    display:flex;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: start;
+    flex-direction: column;
+    color:hsl(337, 59%, 62%);
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+   
+
+}
+
+
+input[type="submit"] {
+    background-color: #E6005A;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer {
+    background-color:#32B9CD;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    
+    padding: 8px;
+}
